@@ -1,4 +1,5 @@
 import pandas as pd
 
 def selectData(students: pd.DataFrame) -> pd.DataFrame: 
-    return students.loc[students['student_id'] == 101][['name','age']]
+    res = students[(students['student_id'] == 101)]
+    return res[['name','age']]
