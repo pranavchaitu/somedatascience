@@ -3,17 +3,18 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Create a NumPy array
-data = np.array([1, 2, 3, 4, 5])
+data = np.array([1, 2, 10, 4, 5])
 
 # Create a Pandas DataFrame
 df = pd.DataFrame(data, columns=['Numbers'])
 
 # Print the DataFrame
 print(df)
+df.plot(kind='bar')
 
 # Plot the data
-plt.plot(df['Numbers'])
-plt.title('Simple Plot')
-plt.xlabel('Index')
-plt.ylabel('Values')
+# plt.plot(df['Numbers'])
+# plt.title('Simple Plot')
+# plt.xlabel('Index')
+# plt.ylabel('Values')
 plt.show()
