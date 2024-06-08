@@ -1,5 +1,5 @@
-# num = np.random.randint()
-# print(num)
+num = np.random.randint()
+print(num)
 # important
 
 import numpy as np
